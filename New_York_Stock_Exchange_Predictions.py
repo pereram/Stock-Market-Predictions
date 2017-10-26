@@ -41,7 +41,7 @@ def creat_predict_seq(data_frame,sequence_length):
     df=df[:-50]# drop last 50 NAN values created due to negative shift
     return df
 
-def normalise_windows(window_data):
+def normalise_windows(window_data): #ref: (http://www.jakob-aungiers.com/articles/a/LSTM-Neural-Network-for-Time-Series-Prediction)
 # Normalizing the stock data before training 
     normalised_data = []
     for window in window_data:

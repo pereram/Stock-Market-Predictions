@@ -30,6 +30,7 @@ https://www.kaggle.com/dgawlik/nyse/data
 
 
 Feature work
+----------------------
 
 This analysis provides great foundation for predicting stock prices per stock type.This will be extended to :
  
@@ -37,3 +38,11 @@ This analysis provides great foundation for predicting stock prices per stock ty
 2.  What's the optimum sequential_length (in this case 50) for the best prediction
 3.  Using stock data starting from earlier decades.
 4.  Understanding any significant difference of the behaviour between recent (after 2008)  and past stock prices.
+
+References
+----------------------
+
+1. http://www.jakob-aungiers.com/articles/a/LSTM-Neural-Network-for-Time-Series-Prediction
+2. http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+
